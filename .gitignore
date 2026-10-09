@@ -1,0 +1,25 @@
+# Python 虚拟环境
+brats3d/
+.venv/
+venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# BraTS 医学影像数据
+data/
+*.nii.gz
+*.zip
+
+# 模型权重
+checkpoints/
+*.pth
+*.pt
+
+# 预测结果
+outputs/
+*.npy
+
+# 本地环境配置
+.env
